@@ -1,12 +1,16 @@
 {
   "name": "mythermostat",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic thermostat that will emit control mode and pid output",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabunin/mythermostat"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vladimir Shabunin",
   "license": "ISC",
   "dependencies": {
     "node-pid-controller": "^1.0.1"
